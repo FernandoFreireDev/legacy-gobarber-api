@@ -33,7 +33,7 @@ class NotificationController {
       }
     );
 
-    return res.json({ notification });
+    return res.json(notification);
   }
 }
 
